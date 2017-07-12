@@ -17,3 +17,8 @@ album1 = Album.new(
 album1.add
 
 # customers = Customer.all
+
+# p Artist.all
+# p Album.all
+
+p album1.artist
