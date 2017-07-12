@@ -8,6 +8,7 @@ require_relative('../models/album')
 artist1 = Artist.new( {'name' => 'Oasis'})
 artist1.add
 
+
 album1 = Album.new( 
   {
     'title' => 'definetly maybe',
@@ -21,5 +22,10 @@ album1.add
 # p Artist.all
 # p Album.all
 
-p album1.artist
-p artist1.album
+# p album1.artist
+# p artist1.album
+artist1.name = 'pulp'
+p artist1.edit
+album1.title = 'xxxxx'
+album1.edit
+
