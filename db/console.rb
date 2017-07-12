@@ -22,3 +22,4 @@ album1.add
 # p Album.all
 
 p album1.artist
+p artist1.album
