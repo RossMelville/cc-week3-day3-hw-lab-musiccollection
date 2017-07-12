@@ -15,7 +15,14 @@ album1 = Album.new(
     'genre' => 'brit-pop',
     'artist_id' => artist1.id
     })
+album2 = Album.new(
+  { 
+    'title' => 'whats the story morning glory',
+    'genre' => 'brit-pop',
+    'artist_id' => artist1.id
+  })
 album1.add
+album2.add
 
 # customers = Customer.all
 
@@ -28,4 +35,5 @@ artist1.name = 'pulp'
 p artist1.edit
 album1.title = 'xxxxx'
 album1.edit
-
+album1.delete
+p Album.all
